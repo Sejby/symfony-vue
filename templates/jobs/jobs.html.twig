@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Inzeráty
+{% endblock %}
+
+{% block body %}
+    <div id="jobs">
+        <div {{ vue_component('JobList', {'jobs':  jobs|json_encode|raw,
+            'total-jobs':  total_jobs,
+            'total-pages':  total_pages ,
+            'current-page':  current_page }) }}
+        </div>
+    </div>
+{% endblock %}

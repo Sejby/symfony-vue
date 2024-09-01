@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+    Detail inzerátu
+{% endblock %}
+
+{% block body %}
+
+    <div {{ vue_component('JobDetail', {'job':  job, 'page':  page}) }}</div>
+
+{% endblock %}
