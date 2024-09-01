@@ -3,7 +3,7 @@
 - Symfony
 
 ### Jak spustit
-- naklonovat main větev
+- naklonovat master větev
 - vytvořit .env soubor v projektové složce do kterého se vloží API_TOKEN=<token> viz. token v zadání
 - composer install
 - npm install
