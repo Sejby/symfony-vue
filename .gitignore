@@ -8,6 +8,7 @@
 /vendor/
 /.env
 /.env.test
+/assets/vendor/
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
